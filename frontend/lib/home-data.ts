@@ -2,7 +2,7 @@
 
 export const homepageData = {
   // heroImage: '/IMG_2531.JPG',
-  heroImage: '/IMG_2528.JPG',
+  heroImage: '/bg-light.jpeg',
   title: "God & Justice | A Beacon of Hope",
   description: "Welcome to truth and social justice.",
 };
@@ -11,7 +11,7 @@ export const programs = [
   {
     title: "Youth Education",
     description: "Empowering young minds with values of truth and justice.",
-    image: { url: "/IMG_2531.JPG" },
+    image: { url: "/youth.jpg" },
     slug: "youth-education",
   },
   {
@@ -32,7 +32,7 @@ export const articles = [
   {
     title: "The Power of Faith in Action",
     description: "How communities transform when truth and compassion unite.",
-    image: { url: "/hero-bg4.jpg" },
+    image: { url: "/powerofunit.jpg" },
     slug: "faith-in-action"
   },
   {
