@@ -65,6 +65,7 @@
 // }
 
 
+//app/layout.tsx
 'use client';
 
 import '../styles/globals.css';
@@ -113,7 +114,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body
         className={`
           ${inter.className}
-          min-h-screen
+          min-h-screen  flex flex-col
           text-dark
           bg-soft_green
           transition-colors
@@ -129,7 +130,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider>
           <Navbar />
           <motion.main
-            className="pt-20"
+            className="flex-grow pt-20"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}

@@ -208,7 +208,6 @@ export default function HomePage() {
       </Section>
 
       <CTA />
-      <Footer />
     </main>
   )
 }
