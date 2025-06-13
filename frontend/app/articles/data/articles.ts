@@ -10,7 +10,6 @@ export const articles = [
   {
     id: "The-Truth-of-God",
     title: "The Truth of God",
-    // html: `<iframe src="/articles/Analyzing-Genesis-3.html" width="100%" height="800px"></iframe>`,
 
     html: `<iframe src="/articles/The-Truth-of-God.html"
     style="width: 100%; height: 800px; border: none;"></iframe>`,
@@ -23,10 +22,16 @@ export const articles = [
     html: `<iframe src="/articles/Analyzing-Genesis-3.html"
     style="width: 100%; height: 800px; border: none;"></iframe>`,
   },
+  {
+    id: "Analysis-about-Jesus",
+    title: "Analysis about Jesus Christ. Will His Return and End All Suffering？",
+
+    html: `<iframe src="/articles/Analysis-about-Jesus.html"
+    style="width: 100%; height: 800px; border: none;"></iframe>`,
+  },
     {
     id: "Problematic-Content-in-the-Bible",
     title: "Problematic Content in the Bible",
-    // html: `<iframe src="/articles/Analyzing-Genesis-3.html" width="100%" height="800px"></iframe>`,
 
     html: `<iframe src="/articles/Problematic-Content-in-the-Bible.html"
     style="width: 100%; height: 800px; border: none;"></iframe>`,
